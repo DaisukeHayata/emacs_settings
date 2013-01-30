@@ -1,0 +1,8 @@
+;; -*- emacs-lisp -*- <12/12/20 11:32:30 /Users/hayatadaisuke/.emacs.d/tramp>
+;; Tramp connection history.  Don't change this file.
+;; You can delete it, forcing Tramp to reapply the checks.
+
+((["scpc" nil "svn.happyelements.co.jp" nil]
+  nil)
+ (["scpc" nil "49.212.17.22" nil]
+  nil))

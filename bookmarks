@@ -1,0 +1,20 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("emperor"
+ (filename . "~/Documents/work/emperor/")
+ (front-context-string . ".DS_Store\n  drwx")
+ (rear-context-string . "92 Dec 19 17:15 ")
+ (position . 275))
+("emacs_settings"
+ (filename . "~/.emacs.d/")
+ (front-context-string . ".DS_Store\n  -rw-")
+ (rear-context-string . "80 Nov  5 17:06 ")
+ (position . 262))
+("redmoon_rep"
+ (filename . "~/Documents/work/redmoon/")
+ (front-context-string . "app\n  -rwxr-xr-x")
+ (rear-context-string . "04 Nov  2 17:30 ")
+ (position . 868))
+)

@@ -1,0 +1,10 @@
+(defvar w3m-command "" "")
+(setq w3m-command "/opt/local/bin/w3m")
+(add-to-list 'Info-additional-directory-list
+             "~/.emacs.d/elisp/emacs-w3m/share/info")
+(require 'w3m-load)
+(defvar w3m-use-cookies t "")
+(setq w3m-use-cookies t)
+(auto-image-file-mode t)
+(defvar w3m-default-display-inline-images "" "")
+(setq w3m-default-display-inline-images t)

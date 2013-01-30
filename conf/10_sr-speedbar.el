@@ -1,0 +1,25 @@
+(require 'sr-speedbar)
+(defun my-speedbar-expand-line ()
+  (interactive)
+  (if (= (point-max) (progn (speedbar-expand-line) (point-max)))
+      (save-current-buffer
+        (speedbar-edit-line))))
+(setq sr-speedbar-right-side nil)
+(setq sr-speedbar-width 18)
+(setq sr-speedbar-width-x 30)
+(setq sr-speedbar-width-console 30)
+(sr-speedbar-open)
+(speedbar 1)
+(speedbar-toggle-show-all-files)
+(speedbar-add-supported-extension '(".txt" ".tex" ))
+(setq speedbar-directory-unshown-regexp "^\\'")
+(define-key speedbar-file-key-map "a" 'speedbar-toggle-show-all-files)
+(speedbar-toggle-images)
+(global-set-key [f9] 'speedbar)
+
+(define-key speedbar-file-key-map "j" 'next-line)
+(define-key speedbar-file-key-map "k" 'previous-line)
+(define-key speedbar-file-key-map "l" 'my-speedbar-expand-line)
+(define-key speedbar-file-key-map "h" 'speedbar-up-directory)
+
+
